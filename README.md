@@ -1,15 +1,15 @@
 # Question-Answering-form-Article
-This is a quick demo for Question Answering from Articles that I chose famous bitcoin paper by Satoshi Nakamoto. Here, I implemented a RAG system and a using search engine Tavily as an agent to search net if your question isn't in the paper :)))
+This is a quick demo for Question Answering from the Article that I chose, a famous Bitcoin paper by Satoshi Nakamoto. Here, I implemented a RAG system and a search engine Tavily as an agent to search on the Internet if your question isn't in the paper :)))
 
-I chose **ChatGPT4** model as my model  and developed it with **LangChain** and **Choroma** which are really strong combination and did great on these questions.
+I chose the **ChatGPT4** model  and developed it with **LangChain** and **Chroma** which are really strong combinations and did great on these questions.
 
-For an introduction to RAG, you can check [this other cookbook](https://huggingface.co/learn/cookbook/en/rag_zephyr_langchain)! Also i would give comments about my code that I think it's helpful.
+For an introduction to RAG, you can check [this other cookbook](https://huggingface.co/learn/cookbook/en/rag_zephyr_langchain)! Also, I would give comments about my code that I think it's helpful.
 
-RAG systems are complex: here a RAG diagram, where we noted in blue all possibilities for system enhancement:
+RAG systems are complex: here is a RAG diagram, where we noted in blue all possibilities for system enhancement:
 
 <img src="https://huggingface.co/datasets/huggingface/cookbook-images/resolve/main/RAG_workflow.png" height="700">
 
-Implementing any of these improvements can bring a huge performance boost; but changing anything is useless if you cannot monitor the impact of your changes on the system's performance! 
+Implementing any of these improvements can bring a huge performance boost, but changing anything is useless if you cannot monitor the impact of your changes on the system's performance! 
 
 
 
